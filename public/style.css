@@ -1,0 +1,52 @@
+/* tags */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', arial,sans-serif;
+  padding-bottom: 56px;
+  margin: 10px;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, #222, #333);
+  background-attachment: fixed;
+  color: #f2f2f2;
+  letter-spacing: 0.03em;
+}
+
+i {
+  color: #00aaaa;
+  font-size: 2em;
+}
+
+p {
+  font-size: 14px;
+  margin: 0;
+}
+
+a {
+  font-size: 14px;
+  color: yellow;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+table tr:hover {
+  background-color: #333;
+}
+
+table tr.active {
+  background-color: #333;
+}
+
+td {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding: 10px;
+}
